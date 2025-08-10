@@ -30,7 +30,7 @@ The repository is organized into the following folders:
 
 1. **Clone the Repository**: If you haven't already, clone the repository to your local machine:
     ```bash
-    git clone https://github.com/pcamarillor/O2025_ESI3914B.git
+    git clone https://github.com/pcamarillor/O2025_ESI3914O.git
     ``` 
 
 2. **Create a branch for each submission**
