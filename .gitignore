@@ -1,0 +1,19 @@
+# ========================================
+# Python temporary files
+# ========================================
+# python temporary files in all subdirectories
+**/__pycache__/
+# python bytecode files in all subdirectories
+**/*.pyc
+
+# ========================================
+# Jupyter Notebook temporary files
+# ========================================
+# Checkpoints in all subdirectories
+**/.ipynb_checkpoints/
+
+# Notebook temp files
+~$*.ipynb
+
+# Ignore all data files in the spark/data directory
+spark/data/
