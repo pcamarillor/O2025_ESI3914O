@@ -1,6 +1,6 @@
 #  Repository of Big Data subject (Autumn 2025)
 
-Welcome to the repository for submitting lab code and projects for the **Big Data Course - O2025_ESI3914B**. This repository is designed to organize and track your coursework throughout the duration of the class.
+Welcome to the repository for submitting lab code and projects for the **Big Data Course - O2025_ESI3914O**. This repository is designed to organize and track your coursework throughout the duration of the class.
 
 ## Table of Contents
 
