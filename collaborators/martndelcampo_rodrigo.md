@@ -1,2 +1,0 @@
-
-# Rodrigo Martín del Campo
