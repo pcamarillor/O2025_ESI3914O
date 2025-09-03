@@ -17,3 +17,5 @@
 
 # Ignore all data files in the spark/data directory
 spark/data/
+
+**/*.DS_Store
