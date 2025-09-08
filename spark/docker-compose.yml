@@ -6,10 +6,11 @@ services:
       - "9090:8080"
       - "7077:7077"
     volumes:
-       - ./notebooks:/home/iteso/notebooks
-       - ./data:/home/iteso/notebooks/data
+       - ./notebooks:/opt/spark/work-dir
+       - ./data:/opt/spark/work-dir/data
     environment:
-      - "SPARK_LOCAL_IP=spark-master"
+      - SPARK_LOCAL_IP=spark-master
+      - PYTHONPATH=/opt/spark/work-dir/lib
   spark-worker:
     image: spark-worker:latest
     depends_on:
@@ -20,9 +21,10 @@ services:
       - SPARK_WORKER_MEMORY=1G
       - SPARK_DRIVER_MEMORY=128m
       - SPARK_EXECUTOR_MEMORY=256m
+      - PYTHONPATH=/opt/spark/work-dir/lib
     volumes:
-       - ./notebooks:/home/iteso/notebooks
-       - ./data:/home/iteso/notebooks/data
+       - ./notebooks:/opt/spark/work-dir
+       - ./data:/opt/spark/work-dir/data
   spark-notebook:
     image: jupyter-notebook:latest
     depends_on:
