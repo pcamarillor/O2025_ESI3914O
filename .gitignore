@@ -20,3 +20,6 @@ spark/data/
 
 **/*.DS_Store
 .vscode/
+
+# notebooks trash
+**/.Trash-0/
