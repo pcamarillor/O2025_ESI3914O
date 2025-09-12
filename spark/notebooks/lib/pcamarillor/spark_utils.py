@@ -4,7 +4,10 @@ from pyspark.sql.types import StructType, StringType, IntegerType, IntegerType, 
 class SparkUtils:
     @staticmethod
     def generate_schema(columns_info) -> StructType:
-        raise NotImplementedError("Not implemented yet")
+        #raise NotImplementedError("Not implemented yet")
+        rdd = sc.parallelize(columns_info)
+        rdd.map = 
+        
 def parse_line(line):
     parts = line.strip().split(",")
     return (parts[0], parts[1], parts[2])
@@ -21,4 +24,4 @@ def to_domain(url):
 class SparkUtils:
     @staticmethod
     def generate_schema(columns_info) -> StructType:
-        raise NotImplementedError("Not implemented yet")
+        #raise NotImplementedError("Not implemented yet")
