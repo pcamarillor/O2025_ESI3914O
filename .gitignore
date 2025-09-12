@@ -19,3 +19,4 @@
 spark/data/
 
 **/*.DS_Store
+.vscode/
