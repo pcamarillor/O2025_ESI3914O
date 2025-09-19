@@ -16,7 +16,8 @@
 ~$*.ipynb
 
 # Ignore all data files in the spark/data directory
-spark/data/
+spark/notebooks/data/
+spark/data
 
 **/*.DS_Store
 .vscode/
