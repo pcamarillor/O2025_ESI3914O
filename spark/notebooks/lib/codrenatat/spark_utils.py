@@ -13,22 +13,22 @@ class SparkUtils:
         "long": LongType(),
         "float": FloatType(),
         "double": DoubleType(),
-        "boolean": BooleanType(), 
-        "date": DateType(), 
+        "boolean": BooleanType(),
+        "date": DateType(),
         "timestamp": TimestampType(),
         "binary": BinaryType()
     }
 
     @staticmethod
     def generate_schema(columns_info) -> StructType:
-    return StructType([
-        StructField(
-            name,
-            SparkUtils.types_dict.get(type_str.strip()),
-            True 
-        )
-        for name, type_str in columns_info
-    ])
+        return StructType([
+            StructField(
+                name,
+                SparkUtils.types_dict.get(type_str.strip()),
+                True   # siempre nullable
+            )
+            for name, type_str in columns_info
+        ])
 
 def parse_line(line: str):
     parts = line.strip().split(",")
