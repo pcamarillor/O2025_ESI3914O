@@ -1,3 +1,4 @@
+# Re-Added for generate_schema on Sep 18
 class BankAccount:
     def __init__(self, initial_balance=0):
         self.balance = initial_balance
