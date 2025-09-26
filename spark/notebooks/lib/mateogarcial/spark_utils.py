@@ -18,15 +18,15 @@ class SparkUtils:
     # Dictionary mapping string representations to Spark data types.
     # This handles various common naming conventions (e.g., "string", "StringType", "str").
     _TYPES_DICT = {
-        "stringtype": StringType(),
-        "integertype": IntegerType(),
-        "shorttype": ShortType(),
-        "doubletype": DoubleType(),
-        "floattype": FloatType(),
-        "booleantype": BooleanType(),
-        "datetype": DateType(),
-        "timestamptype": TimestampType(),
-        "binarytype": BinaryType(),
+        "string": StringType(),
+        "int": IntegerType(),
+        "short": ShortType(),
+        "double": DoubleType(),
+        "float": FloatType(),
+        "bool": BooleanType(),
+        "date": DateType(),
+        "timestamp": TimestampType(),
+        "binary": BinaryType(),
     }
 
     @staticmethod
