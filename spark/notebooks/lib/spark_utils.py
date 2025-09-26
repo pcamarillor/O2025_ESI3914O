@@ -1,21 +1,25 @@
 from pyspark.sql.types import (
     StructType, StructField, StringType, IntegerType,
-    FloatType, DoubleType, BooleanType, DateType, TimestampType
+    FloatType, DoubleType, BooleanType, DateType, TimestampType, ArrayType, StructType
 )
 from typing import List, Tuple
 
 
-class SchemaGenerator:
+from pyspark.sql.types import ArrayType, StructType
+
+class SparkUtils:
     def __init__(self):
-        #Diccionario de mapeo de tipos soportados
+        # Diccionario de mapeo de tipos soportados
         self.type_mapping = {
-            'StringType': StringType,
-            'IntegerType': IntegerType,
-            'FloatType': FloatType,
-            'DoubleType': DoubleType,
-            'BooleanType': BooleanType,
-            'DateType': DateType,
-            'TimestampType': TimestampType
+            'string': StringType,
+            'int': IntegerType,
+            'integer': IntegerType,
+            'float': FloatType,
+            'double': DoubleType,
+            'bool': BooleanType,
+            'boolean': BooleanType,
+            'date': DateType,
+            'timestamp': TimestampType     
         }
 
     def generate_schema(self, columns: List[Tuple[str, str]]) -> StructType:
