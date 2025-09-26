@@ -26,3 +26,4 @@ class SchemaGenerator:
             else:
                 raise ValueError(f"Tipo de dato no soportado: {col_type}")
         return StructType(fields)
+
