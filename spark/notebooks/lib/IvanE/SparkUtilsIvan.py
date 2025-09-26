@@ -3,6 +3,7 @@ from pyspark.sql.types import StructField, StructType, StringType, IntegerType, 
 
 types_dict = {
     "string": StringType(),
+    "struct": StructType(),
     "int": IntegerType(),
     "short": ShortType(),
     "double": DoubleType(),
@@ -11,7 +12,7 @@ types_dict = {
     "date": DateType(),
     "time": TimestampType(),
     "binary": BinaryType(),
-    "array": ArrayType(StringType()),
+    "array_int": ArrayType(IntegerType()),
     "map": MapType(StringType(), IntegerType())
 
 }
