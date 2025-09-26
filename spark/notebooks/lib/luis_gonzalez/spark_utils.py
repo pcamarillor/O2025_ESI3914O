@@ -1,16 +1,17 @@
 from pyspark.sql.types import (
     StructType, StructField, StringType, IntegerType, BooleanType, 
-    DoubleType, TimestampType
+    DoubleType, TimestampType, FloatType
 )
 
 class SparkUtils:
     """A helper class for Spark."""
     _type_lookup = {
-        "StringType": StringType(),
-        "IntegerType": IntegerType(),
-        "BooleanType": BooleanType(),
-        "DoubleType": DoubleType(),
-        "TimestampType": TimestampType(),
+        "string": StringType(),
+        "int": IntegerType(),
+        "bool": BooleanType(),
+        "double": DoubleType(),
+        "float": FloatType(),
+        "time": TimestampType(),
     }
 
     @staticmethod
