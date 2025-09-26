@@ -10,15 +10,15 @@ class SparkUtils:
     @staticmethod
     def generate_schema(columns_info) -> StructType:
         types_dict = {
-            "StringType": StringType(),
-            "IntegerType": IntegerType(),
-            "ShortType": ShortType(),
-            "DoubleType": DoubleType(),
-            "FloatType": FloatType(),
-            "BooleanType": BooleanType(),
-            "DateType": DateType(),
-            "TimestampType": TimestampType(),
-            "BinaryType": BinaryType(),
+            "string": StringType(),
+            "int": IntegerType(),
+            "short": ShortType(),
+            "double": DoubleType(),
+            "float": FloatType(),
+            "bool": BooleanType(),
+            "date": DateType(),
+            "time": TimestampType(),
+            "binary": BinaryType(),
         }
 
         fields = []
