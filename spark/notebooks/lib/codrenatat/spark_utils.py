@@ -3,7 +3,7 @@ from pyspark.sql.types import (
     StructType, StructField,
     StringType, IntegerType, ShortType, DoubleType, FloatType,
     BooleanType, DateType, TimestampType, BinaryType,
-    LongType, ByteType
+    LongType, ByteType, ArrayType
 )
 
 class SparkUtils:
@@ -16,7 +16,9 @@ class SparkUtils:
         "boolean": BooleanType(),
         "date": DateType(),
         "timestamp": TimestampType(),
-        "binary": BinaryType()
+        "binary": BinaryType(),
+        "array_int":ArrayType(IntegerType()),
+        "struct": StructType()
     }
 
     @staticmethod
