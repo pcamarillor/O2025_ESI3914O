@@ -14,6 +14,7 @@ from pyspark.sql.types import (  # type: ignore
     StructField,
     StructType,
     TimestampType,  # noqa: F401
+    ArrayType,
 )
 
 types = {
@@ -27,6 +28,8 @@ types = {
             "date": DateType(),
             "timestamp": TimestampType(),
             "binary": BinaryType(),
+            "array_int": ArrayType(IntegerType()),
+            "struct": StructType()
 }
 
 
