@@ -24,3 +24,5 @@ spark/data
 
 # notebooks trash
 **/.Trash-0/
+
+spark/notebooks/jars/
