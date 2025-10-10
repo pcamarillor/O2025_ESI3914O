@@ -10,8 +10,13 @@ class SparkUtils:
         "int": IntegerType(),
         "bool": BooleanType(),
         "double": DoubleType(),
+<<<<<<< HEAD
         "float": FloatType(),
         "time": TimestampType(),
+=======
+        "time": TimestampType(),
+        "float": FloatType(),
+>>>>>>> 399fd65 (Fix merge conflicts)
     }
 
     @staticmethod
