@@ -12,6 +12,8 @@ class SparkUtils:
         "double": DoubleType(),
         "float": FloatType(),
         "time": TimestampType(),
+        "time": TimestampType(),
+        "float": FloatType(),
     }
 
     @staticmethod
