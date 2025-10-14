@@ -1,0 +1,15 @@
+{"server_id": "SERVER-004", "status_code": 200, "response_time_ms": 147.7, "cpu_usage": 47.17, "memory_usage": 85.83}
+{"server_id": "SERVER-005", "status_code": 500, "response_time_ms": 328.62, "cpu_usage": 90.94, "memory_usage": 60.15}
+{"server_id": "SERVER-002", "status_code": 200, "response_time_ms": 124.49, "cpu_usage": 60.73, "memory_usage": 25.79}
+{"server_id": "SERVER-002", "status_code": 200, "response_time_ms": 429.03, "cpu_usage": 61.98, "memory_usage": 28.76}
+{"server_id": "SERVER-001", "status_code": 200, "response_time_ms": 99.51, "cpu_usage": 92.0, "memory_usage": 69.24}
+{"server_id": "SERVER-001", "status_code": 200, "response_time_ms": 285.94, "cpu_usage": 91.86, "memory_usage": 44.5}
+{"server_id": "SERVER-002", "status_code": 200, "response_time_ms": 119.27, "cpu_usage": 38.32, "memory_usage": 70.28}
+{"server_id": "SERVER-002", "status_code": 404, "response_time_ms": 495.55, "cpu_usage": 91.54, "memory_usage": 29.45}
+{"server_id": "SERVER-005", "status_code": 503, "response_time_ms": 266.34, "cpu_usage": 17.31, "memory_usage": 51.96}
+{"server_id": "SERVER-004", "status_code": 404, "response_time_ms": 670.64, "cpu_usage": 61.84, "memory_usage": 76.65}
+{"server_id": "SERVER-003", "status_code": 200, "response_time_ms": 601.7, "cpu_usage": 28.71, "memory_usage": 53.77}
+{"server_id": "SERVER-005", "status_code": 200, "response_time_ms": 188.07, "cpu_usage": 90.13, "memory_usage": 46.32}
+{"server_id": "SERVER-005", "status_code": 503, "response_time_ms": 580.34, "cpu_usage": 75.42, "memory_usage": 23.26}
+{"server_id": "SERVER-005", "status_code": 500, "response_time_ms": 649.69, "cpu_usage": 17.36, "memory_usage": 86.91}
+{"server_id": "SERVER-001", "status_code": 200, "response_time_ms": 528.47, "cpu_usage": 45.82, "memory_usage": 29.5}
