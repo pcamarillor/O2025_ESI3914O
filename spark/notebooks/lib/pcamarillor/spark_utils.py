@@ -1,5 +1,5 @@
 from urllib.parse import urlparse
-from pyspark.sql.types import StructType, StringType, IntegerType, IntegerType, LongType, ShortType, DoubleType, FloatType, BooleanType, DateType, FloatType, BooleanType, DateType, TimestampType, BinaryType, StructField
+from pyspark.sql.types import StructType, StringType, IntegerType, IntegerType, LongType, ShortType, DoubleType, FloatType, BooleanType, DateType, FloatType, BooleanType, DateType, TimestampType, BinaryType, StructField, MapType
 
 def parse_line(line):
     parts = line.strip().split(",")
@@ -38,6 +38,7 @@ class SparkUtils:
             "date": DateType(),
             "timestamp": TimestampType(),
             "binary": BinaryType(),
+            "map": MapType()
         }
 
         struct_fields = []
