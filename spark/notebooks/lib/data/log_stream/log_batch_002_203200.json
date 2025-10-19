@@ -1,3 +1,0 @@
-{"timestamp": "2025-10-09 20:32:00", "level": "WARN", "message": "CPU usage above threshold", "server": "server-node-4"}
-{"timestamp": "2025-10-09 20:32:00", "level": "INFO", "message": "Service started normally", "server": "server-node-3"}
-{"timestamp": "2025-10-09 20:32:00", "level": "INFO", "message": "User login successful", "server": "server-node-1"}

@@ -27,3 +27,4 @@ spark/data
 
 spark/notebooks/jars/
 spark/data_neo4j/
+spark/notebooks/vg_checkpoint/
