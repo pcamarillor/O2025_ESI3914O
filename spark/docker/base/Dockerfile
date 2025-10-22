@@ -21,8 +21,6 @@ USER root
 RUN set -ex; \
     apt-get update; \
     apt-get install -y python3 python3-pip; \
-    apt-get install netcat; \
     rm -rf /var/lib/apt/lists/*
 RUN pip install findspark
-
-
+RUN pip install numpy
